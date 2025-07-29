@@ -6,6 +6,7 @@ import values from '../Values/Valuess'
 import Valuess from '../Values/Valuess'
 import Products from '../Products/Products'
 import Discount from '../Discount/Discount'
+import Process from '../Process/Process'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
        <Valuess/>
        <Products/>
        <Discount/>
+       <Process/>
     </div>
   )
 }
