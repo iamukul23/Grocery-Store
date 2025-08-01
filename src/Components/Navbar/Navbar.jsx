@@ -9,7 +9,7 @@ const Navbar = () => {
         <header className='bg-white fixed top-0 right-0 left-0'>
             <nav className='max-w-[1400px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center '>
                 {/* logo */}
-                <a href="#" className='text-3xl font-bold'>Gr<span className='text-orange-500 uppercase'>o</span>cify</a>
+                 <a href="#" className='text-3xl font-bold'>Gr<span className='text-orange-500 uppercase'>o</span>cify</a>
                 {/* Desktop Menu */}
                 <ul className='md:flex items-center gap-x-15 hidden '>
                     <li>
