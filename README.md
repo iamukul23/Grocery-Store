@@ -1,12 +1,39 @@
-# React + Vite
+🛒 Grocify Store
+Grocify Store is a responsive, modern grocery shopping website built using React.js and Tailwind CSS. It offers a clean UI for users to explore and manage grocery items online.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🧾 Display list of grocery products
 
-Currently, two official plugins are available:
+🛒 Add to cart functionality (optional if implemented)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💰 Total price calculation (if implemented)
 
-## Expanding the ESLint configuration
+🔍 Search or filter items
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Mobile-first responsive design
+
+⚙️ Tech Stack
+Frontend: React.js, HTML, Tailwind CSS
+
+Tooling: Vite (or Create React App), Git, GitHub
+
+📦 Installation
+
+git clone https://github.com/iamukul23/grocify-website.git
+cd grocify-website
+npm install
+npm run dev
+Then visit http://localhost:5173 (or whatever Vite suggests) in your browser.
+
+
+grocify-website/
+│
+├── public/              # Static files
+├── src/                 # Source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Pages like Home, Product, etc.
+│   ├── App.jsx          # Main App component
+│   └── index.js         # Entry point
+├── tailwind.config.js   # Tailwind setup
+├── package.json         # Project metadata and dependencies
+└── README.md            # You're here!
